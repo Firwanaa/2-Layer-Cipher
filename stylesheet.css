@@ -1,0 +1,133 @@
+body {
+    background-color: #FFF
+  }
+  
+  * {
+    font-family: "Arial", Sans-serif;
+    box-sizing: border-box;
+  }
+  
+  ::selection {
+    background: #b09332;
+    background: #b09332;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #253849;
+    font-family: "Arial", Sans Serif;
+    font-size: 2.7em
+  }
+  h4{
+    text-align: center; 
+    color: #253849;
+    font-family: "Arial", Sans Serif;
+    font-size: 1em
+  }
+  
+  .container {
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    margin-top: -5px;
+    text-align: center;
+  }
+  
+  input[type=text] {
+    height: 38px;
+    width: 380px;
+    margin-top: -5px;
+    padding: 12px;
+    border: 1px solid #253849;
+    font-size: 1.1em;
+    text-align: center;
+    color: #253849;
+  }
+  
+
+  input[type=text]:hover {
+    outline: none;
+    border-width: 3px;
+    border-color: #c55420
+  }
+.notes{
+  font-size: 1em;
+  font-weight: bold;
+  color: brown;
+}
+  
+
+  ::-webkit-input-placeholder {
+    opacity: 0.90;
+    color: #253849;
+  }
+  
+  :-moz-placeholder {
+    opacity: 0.90;
+    color: #253849;
+  }
+  
+  ::-moz-placeholder {
+    opacity: 0.90;
+    color: #253849;
+  }
+  
+  :-ms-input-placeholder {
+    opacity: 0.90;
+    color: #253849;
+  }
+  
+  input[type=button] {
+    border: 1px solid #253849;
+  }
+  
+  input[type=button]:focus {
+    outline: none;
+  }
+  
+  .optionBtn {
+    height: 30px;
+    width: 115px;
+    margin-left: -5px;
+    padding: 6px;
+    outline: none;
+    background-color: white;
+    font-size: 0.9em;
+    color: #253849
+  }
+  
+  #btn1 {
+    background-color: #b09332;
+    color: white;
+  }
+  
+  #btn2:hover {
+      cursor: pointer
+  }
+  
+  .btn {
+    height: 35px;
+    width: 90px;
+    background-color: #253849;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #b09332;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .msg {
+
+    margin-top: -25px;
+    text-align: center;
+    line-height: 35px;
+  }
+  
+  p {
+    font-family: "Arial", Sans Serif;
+    font-size: 1.5em;
+    color: #253849;
+  }
